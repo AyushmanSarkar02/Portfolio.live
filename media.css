@@ -1,0 +1,190 @@
+@media screen and (max-width:1260px) and (min-width:601px) {
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+    .navbar{
+        justify-content: center;
+        align-items: center;
+        margin-left: -400px;
+    }
+    .hero-section-right{
+        margin-top: 50px;
+        margin-left: -280px;
+    }
+    .faded-text{
+        font-size: 6rem;
+        bottom: -200px;
+        left: 3%;
+    }
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: -30px;
+    }
+    .skill-container-right{
+        margin-top: 150px;
+        margin-left: -50px;
+    }
+    .skills-logo{
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: -10px;
+        left:60px ;
+    }
+    .gittool{
+        position: relative;
+        top: 70px;
+        left: -200px;
+    }
+    .footer-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .link-wrapper{
+        margin-left: -600px;
+    }
+    .icon-wrapper{
+        margin-left: -600px;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-container{
+        margin-left: -832px;
+    }
+    .nav-items{
+        margin-left: -820px;
+        gap: 0.5rem;
+    }
+    .pri-btn a{
+        font-size: 1rem;
+    }
+    .logo-text{
+        font-size: 1.5rem;
+    }
+    .faded-text{
+        font-size: 3rem;
+        left: 2%;
+    }
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-section-left{
+        margin-left: -650px;
+
+    }
+    .hero-section-heading{
+        font-size: 23px;
+
+    }
+    .hero-section-description span::after{
+        content:"\a";
+        white-space: pre;
+
+
+    }
+    .hero-section-right{
+        margin-top: 50px;
+        margin-left: -590px;
+    }
+    .project-section{
+        margin-top: 8rem;
+    }
+    .project-card{
+        background-size: contain;
+    
+    
+    }
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: -30px;
+    }
+    .skill-heading{
+        font-size: 50px;
+    }
+    .skill-container-left{
+        margin-left: -50px;
+        font-size: 15px;
+    }
+    .skill-subHeading span::after{
+        content:"\a";
+        white-space: pre;
+
+    }
+    .skill-container-right{
+        margin-top: 150px;
+        margin-left: -170px;
+    }
+
+    .skills-logo{
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: -10px;
+        left:60px ;
+    }
+    .gittool{
+        position: relative;
+        top: 70px;
+        left: -200px;
+    }
+    .contactus-heading{
+        font-size: 2em;
+        text-align: center;
+    }
+    .contactus-sub-heading{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .contactus-form-container form{
+        margin-left: 22px;
+        margin-top: -10px;
+        
+    }
+    #submit-btn{
+        font-size: 1rem;
+        padding: 12px;
+        margin-top: -10px;
+    }
+    .footer-faded-text{
+        font-size: 1.8em;
+    }
+    .footer-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .link-wrapper{
+        margin-left: -990px;
+    }
+    .icon-wrapper{
+        margin-left: -990px;
+
+    }
+
+  
+
+    }
+   
+
+

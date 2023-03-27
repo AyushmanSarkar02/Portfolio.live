@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website - Ayushman Sarkar</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
+  
     
     <div id="wrapper">
 
@@ -40,8 +42,8 @@
                     </div>
     
                     <div class="hero-section-description">
-                        I’m a Frontend Web Developer and here is my portfolio website. Here you’ll
-                        learn about my journey as a software developer.
+                       <span> I’m a Frontend Web Developer and here is my portfolio website.</span><span>Here you’ll
+                        learn about my journey as a software developer.</span>
                     </div>
                     
                     <div title="Linkedin-Profile" class="btn-pink" id="btn"><a href="https://www.linkedin.com/in/ayushman-sarkar-172336222/">Hire me</a></div>
@@ -50,19 +52,19 @@
     
                 <div class="hero-section-right">
                     <div class="absolute icons icon-dots">
-                        <img src="./images/userAsset/dots.png" alt="" />
+                        <img style="transform: translateY(150px) translateX(50px);" src="./images/userAsset/dots.png" alt="" />
                       </div>
                       <div class="absolute icons icon-cube">
-                        <img src="./images/userAsset/cube.png" alt="" />
+                        <img style="transform: translateY(-100px) translateX(1px); margin-left: -50px;" src="./images/userAsset/cube.png" alt="" />
                       </div>
                       <div class="absolute icons icon-circle">
-                        <img src="./images/userAsset/circle.png" alt="" />
+                        <img style="transform: translateY(182px) translateX(-210px);" src="./images/userAsset/circle.png" alt="" />
                       </div>
                       <div class="absolute icons icon-zigzag">
-                        <img src="./images/userAsset/zigzags.png" alt="" />
+                        <img style="transform: translateY(-120px) translateX(-220px);" src="./images/userAsset/zigzags.png" alt="" />
                       </div>
                       <div class="absolute icons icon-plus">
-                        <img src="./images/userAsset/plus.png" alt="" />
+                        <img style="transform: translateY(-100px) translateX(-130px);" src="./images/userAsset/plus.png" alt="" />
                       </div>
                       <div class="user-image">
                         <img src="./PSX_20230101_192147.jpg" style="height: 150px; width:120px;" alt="" />
@@ -78,24 +80,24 @@
             <div class="project-container">
                 <div class="project-card" id="project1">
                     <div class="project-number project-number-right">01</div>
-                    <div class="project-content project-content-left">
+                    <div style="margin-top: -50px;" class="project-content project-content-left">
 
                         <div class="project-skills-container">
-                            <img class="project-skill"  alt="" />
+                            <img class="project-skill" src="./images/stack/HTML.png"  alt="" />
                             <img class="project-skill" src="./images/stack/CSS.png" alt="" />
                             <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
-                            <img class="project-skill" src="./images/stack/Express.png" alt="" />
+                            <!-- <img class="project-skill" src="./images/stack/Express.png" alt="" />
                             <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
                             <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
                             <img class="project-skill" src="./images/stack/NodeJs.svg" alt="" />
                             <img class="project-skill" src="./images/stack/MongoDB.svg" alt="" />
                             <img class="project-skill" src="./images/stack/Redux.svg" alt="" />
-                            <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                            <img class="project-skill" src="./images/stack/Vercel.svg" alt="" /> -->
                         </div>
 
                         <h2 class="project-heading">Password Generator</h2>
 
-                        <p class="project-subHeading">• It generates Password according to the given length and the characters that user wants to include in their Password and also detect the strength of the generated password by showing red and green indicator respectively.
+                        <p class="project-subHeading">•It generates Password according to the given length and the characters that user wants to include in their Password and also detect the strength of the generated password by showing red and green indicator respectively.
                         </p>
                         <div class="btn-grp">
                             <button class="btn-pink btn-project">Read More</button>
@@ -112,20 +114,18 @@
                 <div class="project-card" id="project2">
                   <div class="project-number project-number-left">02</div>
                   <div class="project-content project-content-right">
-                    <div class="project-skill-container">
+                    <div style="margin-left: 45px;" class="project-skill-container">
                       <img class="project-skill" src="./images/stack/HTML.png" alt="" />
                       <img class="project-skill" src="./images/stack/CSS.png" alt="" />
                       <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
-                      <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                      <!-- <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
                       <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
                       <img class="project-skill" src="./images/stack/Redux.svg" alt="" />
-                      <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                      <img class="project-skill" src="./images/stack/Vercel.svg" alt="" /> -->
                     </div>
                     <h2 style="transform: translateX(50px);" class="project-heading">Weather App</h2>
-                    <p style="transform: translateX(50px);" class="project-sub-heading">
-                      • This Weather App shows the current weather of the user's location and also the Weather of any city or location given input by using Weather API, with a very interactive and minimalistic UI.
-
-                    </p>
+                    <p  class="project-subHeading" style="transform: translateX(50px);">
+                      • This Weather App shows the current weather of the user's location and also the Weather of any city or location given input by using Weather API, with a very interactive and minimalistic UI.</p>
                     <div style="transform: translateX(50px);" class="btn-group">
                       <button class="btn-pink btn-project">Read More</button>
                       <a href="https://github.com/AyushmanSarkar02/Weather-APP">
@@ -145,13 +145,13 @@
                       <img class="project-skill" src="./images/stack/HTML.png" alt="" />
                       <img class="project-skill" src="./images/stack/CSS.png" alt="" />
                       <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
-                      <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                      <!-- <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
                       <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
-                      <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                      <img class="project-skill" src="./images/stack/Vercel.svg" alt="" /> -->
                     </div>
           
                     <h2 class="project-heading">TicTacToe Game</h2>
-                    <p class="project-sub-heading">
+                    <p class="project-subHeading">
                       • Building a complete TicTacToe Game using JAVASCRIPT logic and adding CSS to make it like a interactive Game UI
 
                     </p>
@@ -171,12 +171,14 @@
                   <div class="project-number project-number-left">04</div>
                   <div class="project-content project-content-right">
                     <div class="project-skill-container">
-                      <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+                      <img class="project-skill" src="./images/stack/HTML.png" alt="html" />
+                      <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
                       <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
-                      <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+                      <!-- <img class="project-skill" src="./images/stack/Vercel.svg" alt="" /> -->
                     </div>
                     <h2 class="project-heading">Razorpay Clone</h2>
-                    <p class="project-sub-heading">
+                    <p class="project-subHeading">
                       • Building the complete Razorpay Website Responsive UI using Tailwind CSS
 
                     </p>
@@ -206,55 +208,64 @@
             </h2>
 
             <div class="skill-subHeading">
-              <p>
-                Hi, I am Ayushman Sarkar, an aspiring Software Developer currently pursuing my B.Tech in Computer Science and Engineering @ Haldia Institute Of Technology.
+              
+               <span>Hi, I am Ayushman Sarkar, an aspiring Software</span> <span>Developer currently pursuing my B.Tech in</span><span>Computer Science and Engineering </span> <span>@ Haldia Institute Of Technology.</span>
 
-              </p>
-              <p>
-                As a computer science student, I have a strong foundation in programming, software development, and computer science theory. I am experienced in Java, Javascript, and Dart and have developed several web and mobile applications. 
+          
+              <br>
+              <br>
+              
+                <span>As a computer science student, I have a</span> <span>strong foundation in programming, software</span> <span>development, and computer science theory. I am</span> <span> experienced in Java, Javascript, and Dart and<br> have developed several web and mobile<br> applications.</span>
 
-              </p>
-              <p>
-                My experience includes web-based applications and front-end development with the latest web technologies(Frontend Development) like HTML5 , CSS3 , javascript , ReactJS , Tailwind CSS.
+            
+              <br>
+              <br>
+             
+                <span>My experience includes web-based applications</span> <span>and front-end development with the latest<br>web technologies(Frontend Development)<br>like HTML5 , CSS3 , javascript , ReactJS ,<br>Tailwind CSS.</span> 
 
-              </p>
-              <p>
-                I'm very much passionate about Frontend Development , have also build several full fledged Frontend projects using HTML5 , CSS3 , javascript and ReactJS and also currently working on some more projects for getting constant improvement on Frontend Development.
+            
+              <br>
+              <br>
+              
+               <span>I'm very much passionate about Frontend</span> <span>Development , have also build several full<br>fledged Frontend projects using HTML5 ,<br>CSS3 , javascript and ReactJS and also<br>currently working on some more projects<br>for getting constant improvement on<br>Frontend Development.</span> 
 
 
-              </p>
-              <p>
-                I am always looking to learn new technologies and am currently exploring web development. 
-                Currently seeking for Frontend Web Development Internships. 
-                 Please feel free to contact me on LinkedIn for any new opportunities.
+              
+              <br>
+              <br>
+         
+               <span>I am always looking to learn new technologies</span> <span>and am currently exploring web development.<br>   
+                Currently seeking for Frontend Web<br>Development Internships. 
+                 Please feel free to<br>contact me on LinkedIn for any new opportunities.
+                 </span>
 
-              </p>
+         
             </div>
           </div>
 
           <div class="skill-container-right">
             <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
 
-            <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
+            <img  src="./images/stack/HTML.png" alt="" class="skills-logo htmllogo" />
             <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
             <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
-            <img src="./images/stack/React.png" alt="" class="skills-logo" />
+            <!-- <img src="./images/stack/React.png" alt="" class="skills-logo" />
             <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
             <img src="./images/stack/Next.svg" alt="" class="skills-logo" />
-            <img src="./images/stack/Redux.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Redux.svg" alt="" class="skills-logo" /> -->
             <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
-            <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />
+            <!-- <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />
             <img src="./images/stack/MaterialUI.svg" alt="" class="skills-logo" />
-            <img src="./images/stack/Express.png" alt="" class="skills-logo" />
-            <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
-            <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
-            <img src="./images/stack/Graphql.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Express.png" alt="" class="skills-logo" /> -->
+            <img  src="./images/stack/Git.svg" alt="" class="skills-logo gittool" />
+            <img src="./images/stack/Github.svg" alt="" class="skills-logo gittool" />
+            <!-- <img src="./images/stack/Graphql.svg" alt="" class="skills-logo" />
             <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
             <img src="./images/stack/Vercel.svg" alt="" class="skills-logo" />
             <img src="./images/stack/ChartJs.svg" alt="" class="skills-logo" />
             <img src="./images/stack/Bash.svg" alt="" class="skills-logo" />
             <img src="./images/stack/Docker.svg" alt="" class="skills-logo" />
-            <img src="./images/stack/K8s.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/K8s.svg" alt="" class="skills-logo" /> -->
           </div>
         
         
